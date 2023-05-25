@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com.css?family=Poppins:200,300,');
+    *
+        {
+            margin: 0;
+            box-sizing: border-box;
+            font-family:sans-serif;
+        }
+    body
+        {
+            background: #000;
+            min-height: 200vh;
+        }
+    nav
+        {
+            background-color: #000;
+            overflow: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.6s;
+            padding: 15px 50px;
+            z-index: 100000;
+        }
+    nav .home
+        {
+            position: relative;
+            font-weight: 700;
+            color: #fff;
+            text-decoration:  none;
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: 0.6s;
+        }
+    nav ul
+        {
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    nav ul li
+        {
+            position: relative;
+            list-style: none;
+            margin: 0px 15px;
+        }
+    nav ul li a
+        {
+            position: relative;
+            text-decoration: none;
+            color: white;
+            letter-spacing: 1px;
+            font-weight: 300px;
+            transition: 0.6s;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 6px;
+        }
+    #about, #experience, #education, #skills, #interest, #award
+        {
+        min-height: 100vh;
+        background: rgba(199, 212, 255, 0.568);
+        }
+    img
+        {
+          border-radius: 50%;
+          height: 250px;
+          position: relative;
+          left: 20px;
+          top: 80px;
+        }
+    h1
+        {
+            position: relative;
+            top: 70px;
+            left: 10px;
+        }
+    #footer 
+        {
+        background: #f5b238;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="home">Home</a>
+        <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#experience">Riwayat Pekerjaan</a></li>
+            <li><a href="#education">Riwayat Pendidikan</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#interest">Minat</a></li>
+            <li><a href="#award">Penghargaan</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <div id="about">
+            <h1>Tentang</h1>
+            <div id="profil-picture">
+                <img src="profile.jpg" alt="Gambar Profil" /><br><br><br><br><br><br>
+            </div>
+            <div id="description-1">
+                <p>&nbsp;Nama&nbsp;&nbsp;&nbsp;&nbsp;: Fathurrahman Kamal Rozi</p>
+                <p>&nbsp;Alamat&nbsp;&nbsp;: Aceh Utara</p>
+                <p>&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;: fathurrahmankamal17@gmail.com</p>
+                <p>&nbsp;Usia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 23 Tahun</p>
+            </div>
+
+        </div>
+
+        <div id="experience">
+            <h1>Riwayat Pekerjaan</h1><br><br><br><br><br><br>
+            <h3>Pengalaman:</h3>
+            <ul>
+                <li>Pertamina (1 tahun)</li>
+                <li>Starbuck (2 tahun)</li>
+            </ul>
+        </div>
+
+        <div id="education">
+            <h1>Pendidikan</h1><br><br><br><br><br><br>
+            <ol>
+                <li>SDN 1 Prakerja</li>
+                <li>SMPN 1 Prakerja</li>
+                <li>SMAN 1 Prakerja</li>
+            </ol>
+        </div>
+
+        <div id="skills">
+            <h1>Skill</h1><br><br><br><br><br><br>
+            <ol>
+                <li>Mampu mengoperasikan komputer</li>
+                <li>Dapat bekerja sama dengan waktu</li>
+                <li>Mampu mengatur waktu dengan baik</li>
+                <li>Menguasai bahasa pemongraman</li>
+            </ol>
+        </div>
+        <div id="interest">
+            <h1>Minat</h1><br><br><br><br><br><br>
+            <ol>
+                <li>Pemogaraman Web</li>
+                <li>Komersial</li>
+                <li>Mempelajari hal baru</li>
+            </ol>
+        </div>
+      </div>
+      <div id="award">
+        <h1>Penghargaan</h1><br><br><br><br><br><br>
+        <ol>
+            <li>Juara 1 Lomba Catur Prakerja</li>
+            <li>Juara 1 Pencak Silat Prakerja</li>
+            <li>Juara 1 Desain Web Prakerja</li>
+            <li>Juara 1 Lomba Fotografi Prakerja</li>
+        </ol>
+    </div>
+  </div>
+
+      <div id="footer">
+        Copyright &copy; 2023. Prakerja. <br/>
+        All Rights Reserved.
+      </div>
+    </div>
+  </body>
+</html>
+
+    
+</body>
+</html>
